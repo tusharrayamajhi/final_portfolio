@@ -33,10 +33,6 @@ for(let i = 0;i<nav_btns.length;i++){
 
     });
 }
-
-
-
-
 function showportfolio(){
     const card = document.querySelectorAll(".card");
     let i =0;
@@ -63,14 +59,6 @@ function removeportfolio(){
 
 
 }
-
-
-
-
-
-
-
-
 menu.addEventListener("click",()=>{
     let i = document.querySelector(".menu>i");
     const list = document.querySelector(".menu_list");
