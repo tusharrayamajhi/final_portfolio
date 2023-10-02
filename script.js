@@ -15,29 +15,60 @@ for(let i = 0;i<nav_btns.length;i++){
             let select = document.querySelector(`.${nav_btns[i]}`);
             if(select.classList.contains("home_btn")){ 
                 removeportfolio();
+                showhome();
             }else if(select.classList.contains("portfolio_btn")){
                 showportfolio(); 
+                removehome();
             }else if(select.classList.contains("about_btn")){
                 removeportfolio();
+                removehome();
                 
             }else if(select.classList.contains("resume_btn")){
                 removeportfolio();
-    
+                removehome();
+                
             }else if(select.classList.contains("blog_btn")){
                 removeportfolio();
+                removehome();
                 
             }else{
                 removeportfolio();
-    
+                removehome();
+                
             }
 
     });
 }
+
+function showhome(){
+    const info_ani = document.querySelectorAll(".info_ani");
+    let i =0;
+    var id = setInterval(()=>{
+        info_ani[i].style.transform = "scale(1)";
+        i++;
+    },100);
+    setTimeout(()=>{
+        clearInterval(id);
+    },300);
+}
+function removehome(){
+    const info_ani = document.querySelectorAll(".info_ani");
+    let i = 0;
+    var id = setInterval(()=>{
+        info_ani[i].style.transform = "scale(0)";
+        i++;
+    },100);
+    setTimeout(()=>{
+        clearInterval(id);
+    },300);
+}
+
 function showportfolio(){
     const card = document.querySelectorAll(".card");
     let i =0;
     var id = setInterval(()=>{   
         card[i].style.transform = "scale(1)";
+        card[i].style.animationName = "cardanimation";
         card[i].style.opacity = "1";
         i++;
     },100);
@@ -50,6 +81,7 @@ function removeportfolio(){
     let i =0;
     var id = setInterval(()=>{   
         card[i].style.transform = "scale(0)";
+        card[i].style.animationName = "none";
         card[i].style.opacity = "0";
         i++;
     },100);
