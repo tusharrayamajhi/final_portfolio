@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <% for(list of lists){ %>
+    <div>
+        <h1><%= list.title %></h1>
+        <p><%= list.des %></p>
+        <button><a href="http://localhost:3000/delete/<%= list.id %>">delete</a></button>
+        <a href="http://localhost:3000/edit/<%=list.id%>">edit</a>
+    </div>
+    <% } %>
+    <button><a href="http://localhost:3000/add">ADD</a></button>
+</body>
+
+</html>
