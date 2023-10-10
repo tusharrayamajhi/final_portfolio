@@ -1,7 +1,7 @@
 const container = document.querySelector(".portfolio");
 let cards = [
     {
-        image:"login.png",
+        image:"Login/login.png",
         title:"Todo website",
         text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam"
     },
