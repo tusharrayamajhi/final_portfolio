@@ -8,33 +8,13 @@ let cards = [
         link:"suduko/index.html",
     },
     {
-        image:"https://th.bing.com/th/id/OIP.AFvpFVl7hgBvxmuP_XytNQHaFf?pid=ImgDet&w=1024&h=759&rs=1",
-        title:"sudukos solver 9X9",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam",
-        lang:"language use: HTML,CSS,JS",
-        link:"",
-    },
-    {
         image:"https://th.bing.com/th/id/R.fa34aa07a35154db5ca4c45068ed94c2?rik=16BQtHeloISx%2bQ&riu=http%3a%2f%2fprofesores.fi-b.unam.mx%2fing_gpemn%2fcpi%2fimagenes%2freflejo.jpg&ehk=ivoH2v87aGBlSq5JCpuAzg8MqO9%2fKWw2cO6N17cqYz0%3d&risl=&pid=ImgRaw&r=0",
         title:"Todo website",
-        text:" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam",
-        lang:"language use: HTML,CSS,JS",
-        link:"",
+        text:" ",
+        lang:"language use: HTML,CSS,JS,Express-js,Node-js",
+        link:"todo.html",
     },
-    {
-        image:"https://www.freejpg.com.ar/asset/900/a3/a385/F100004703.jpg",
-        title:"Todo website",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam",
-        lang:"language use: HTML,CSS,JS",
-        link:"",
-    },
-    {
-        image:"https://sergiomadrigal.com/wp-content/uploads/2014/01/blog_fisheye.jpg",
-        title:"Todo Website",
-        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam dolor sit amet consectetur adipisicing elit. Eos esse quam laboriosam",
-        lang:"language use: HTML,CSS,JS",
-        link:"",
-    }
+    
 ];
 
 for(let card of cards){
