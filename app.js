@@ -8,7 +8,7 @@ let cards = [
         link:"suduko/index.html",
     },
     {
-        image:"https://th.bing.com/th/id/R.fa34aa07a35154db5ca4c45068ed94c2?rik=16BQtHeloISx%2bQ&riu=http%3a%2f%2fprofesores.fi-b.unam.mx%2fing_gpemn%2fcpi%2fimagenes%2freflejo.jpg&ehk=ivoH2v87aGBlSq5JCpuAzg8MqO9%2fKWw2cO6N17cqYz0%3d&risl=&pid=ImgRaw&r=0",
+        image:"todo.png",
         title:"Todo website",
         text:" ",
         lang:"language use: HTML,CSS,JS,Express-js,Node-js",
